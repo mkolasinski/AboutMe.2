@@ -17,10 +17,10 @@ body {
 }
 
 .name {
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 2px 2px grey;
+    text-shadow: 1px 1px grey;
 }

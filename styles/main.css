@@ -1,12 +1,63 @@
 body {
     background-color: lightgray;
+    font-family: 'Exo 2', sans-serif;
 }
 
+.description {
+    margin: 0;
+}
+#first {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    color: black;
+
+}
+
+#name {
+    /*font-weight: bold;*/
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    color: black;
+    line-height: 10px;
+
+}
+
+#name span {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    color: darkslategray;
+}
+
+#surname {
+    /*font-weight: bold;*/
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    color: black;
+}
+
+#surname span {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    color: darkslategray;
+}
 .main-div {
     background-color: ghostwhite;
     margin-top: 65px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .circular img {
@@ -16,11 +67,3 @@ body {
     position: relative;
 }
 
-.name {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 1px 1px grey;
-}

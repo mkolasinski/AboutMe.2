@@ -1,0 +1,17 @@
+body {
+    background-color: lightgray;
+}
+
+.main-div {
+    background-color: ghostwhite;
+    margin-top: 65px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.circular img {
+    border: 7px solid lightgray;
+    border-radius: 150px;
+    margin-top: -35px;
+    position: relative;
+}

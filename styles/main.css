@@ -22,6 +22,7 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: #DFDFDF;
+    margin-bottom: 0;
 }
 
 #name span {
@@ -31,6 +32,7 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: darkslategray;
+    margin-bottom: 0;
 }
 
 #surname {
@@ -40,6 +42,8 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: #DFDFDF;
+    margin-top:1%;
+    margin-bottom: 1%;
 }
 
 #surname span {
@@ -49,6 +53,8 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: darkslategray;
+    margin-top:1%;
+    margin-bottom:1%;
 }
 
 #what-search {
@@ -58,6 +64,8 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: #DFDFDF;
+    margin-top:1%;
+    margin-bottom:0;
 }
 
 #what-search span {
@@ -67,6 +75,8 @@ body {
     text-align: center;
     text-shadow: 1px 1px grey;
     color: darkslategray;
+    margin-top:1%;
+    margin-bottom:0;
 }
 .main-div {
     background-color: ghostwhite;
@@ -82,4 +92,14 @@ body {
     margin-top: -35px;
     position: relative;
 }
+
+.decoration {
+    width: 50%;
+    height: 1px;
+    background-color: darkslategrey;
+    position: relative;
+    margin: 2% auto;
+    border-radius: 50%;
+}
+
 

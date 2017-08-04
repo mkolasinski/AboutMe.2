@@ -1,4 +1,4 @@
-main, html {
+main, html, body {
     background-color: lightgray;
     font-family: 'Exo 2', sans-serif;
 }
@@ -102,11 +102,12 @@ main, html {
     border-radius: 50%;
 }
 
-.left-column {
-    border-color: red;
+.languages p, .technologies p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px grey;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 2%;
 }
-
-.right-column {
-    border-color: green;
-}
-

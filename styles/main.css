@@ -1,4 +1,4 @@
-body {
+main, html {
     background-color: lightgray;
     font-family: 'Exo 2', sans-serif;
 }
@@ -102,4 +102,11 @@ body {
     border-radius: 50%;
 }
 
+.left-column {
+    border-color: red;
+}
+
+.right-column {
+    border-color: green;
+}
 

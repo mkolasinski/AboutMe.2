@@ -111,3 +111,9 @@ main, html, body {
     margin-bottom: 0;
     margin-top: 2%;
 }
+
+.kinds-languages img {
+    max-width: 100px;
+    margin-top: 5px;
+    margin-left: 25px;
+}

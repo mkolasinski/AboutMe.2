@@ -112,8 +112,31 @@ main, html, body {
     margin-top: 2%;
 }
 
-.kinds-languages img {
-    max-width: 100px;
-    margin-top: 5px;
-    margin-left: 25px;
+.kinds-languages {
+    position: relative;
 }
+
+.kinds-languages img {
+    max-width: 80px;
+    margin: 15px;
+    position: absolute;
+    display: block;
+}
+
+.p-lang {
+    position: absolute;
+    display: inline;
+    top: 15px;
+}
+
+.small-lang {
+    color: lightgrey;
+    text-shadow: 1px 1px 0 darkslategrey;
+    font-size: 12px;
+}
+
+.p-lang .small-lang {
+    horiz-align: center;
+}
+
+

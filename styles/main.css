@@ -117,6 +117,12 @@ main, html, body {
     text-shadow: 1px 1px grey;
 }
 
+.langs-img {
+    margin-top: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
 
 
 

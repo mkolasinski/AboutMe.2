@@ -123,6 +123,31 @@ main, html, body {
     position: relative;
 }
 
+.lang-descr {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px grey;
+    text-align:left;
+    font-weight: bold;
+    margin: 0;
+    bottom: 13px;
+
+}
+
+.span-descr {
+    font-size: 10px;
+    font-weight: bold;
+    font-color: darkslategrey;
+    text-shadow: darkgrey;
+    text-align: left;
+    position: relative;
+    display: flex;
+    left: 89px;
+    bottom: 42px;
+    margin: 0;
+}
+
 
 
 

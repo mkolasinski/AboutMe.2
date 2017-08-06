@@ -102,5 +102,21 @@ main, html, body {
     border-radius: 50%;
 }
 
+.left-column {
+    border: 1px solid red;
+}
+
+.right-column {
+    border: 1px solid blue;
+}
+
+.langs-known {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+
+
 
 

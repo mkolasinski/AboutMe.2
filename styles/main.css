@@ -102,41 +102,5 @@ main, html, body {
     border-radius: 50%;
 }
 
-.languages p, .technologies p {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 16px;
-    text-shadow: 1px 1px grey;
-    font-weight: bolder;
-    margin-bottom: 0;
-    margin-top: 2%;
-}
-
-.kinds-languages {
-    position: relative;
-}
-
-.kinds-languages img {
-    max-width: 80px;
-    margin: 15px;
-    position: absolute;
-    display: block;
-}
-
-.p-lang {
-    position: absolute;
-    display: inline;
-    top: 15px;
-}
-
-.small-lang {
-    color: lightgrey;
-    text-shadow: 1px 1px 0 darkslategrey;
-    font-size: 12px;
-}
-
-.p-lang .small-lang {
-    horiz-align: center;
-}
 
 

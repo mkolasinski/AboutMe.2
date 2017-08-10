@@ -84,6 +84,7 @@ main, html, body {
     margin-left: 15%;
     margin-right: 15%;
     height: 100%;
+    border-radius: 30px;
 }
 
 .circular img {
@@ -102,7 +103,7 @@ main, html, body {
     margin: 30px auto;
 
 }
-.col-sm-6 p {
+.main-p {
     margin-top: 0;
     text-transform: uppercase;
     text-align: center;
@@ -124,40 +125,41 @@ main, html, body {
     position: relative;
 }
 
-.what-known:hover {
+.what-known-description:hover {
     background-color: lightslategrey;
     border: none;
+    border-radius: 15px;
     position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color:ghostwhite;
 }
 
 .what-known-description img {
-    margin: 25px;
+    margin: 15px;
     border-radius: 6px;
-    position: relative;
+    position: absolute;
 }
 
-.what-known-description-text text {
-    display: block;
-    position: relative;
-    left: 100px;
-    bottom: 85px;
-    text-align: left;
-    font-size: 1em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+.what-known-description-text {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
 }
 
-.what-known-description-text small {
-    display: block;
-    position: relative;
-    left: 100px;
-    bottom: 105px;
-    text-align: left;
-    font-size: 0.8em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+.description-p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: bolder;
+    color: ghostwhite;
+    /*text-shadow: 1px 1px 1px grey;*/
 }
-
+.what-known-description-text-inside {
+    font-size: 8px;
+    text-shadow: 1px 1px 1px grey;
+}
 
 
 

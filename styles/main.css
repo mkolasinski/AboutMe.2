@@ -83,7 +83,7 @@ main, html, body {
     margin-top: 65px;
     margin-left: 15%;
     margin-right: 15%;
-    height: 500px;
+    height: 100%;
 }
 
 .circular img {
@@ -103,11 +103,11 @@ main, html, body {
 }
 
 .left-column {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .right-column {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .langs-known {
@@ -118,35 +118,46 @@ main, html, body {
 }
 
 .langs-img {
-    margin-top: 15px;
-    margin-left: 15px;
+    /*padding-left: 36px;*/
+    /*padding-bottom: 63px;*/
     position: relative;
 }
 
 .lang-descr {
-    position: relative;
-    display: inline-block;
     font-size: 14px;
     text-shadow: 1px 1px 1px grey;
     text-align:left;
     font-weight: bold;
-    margin: 0;
-    bottom: 13px;
-
+    left: 0;
+    position: absolute;
+    display: inline-block;
 }
 
 .span-descr {
     font-size: 10px;
     font-weight: bold;
-    font-color: darkslategrey;
+    color: darkslategrey;
     text-shadow: darkgrey;
     text-align: left;
-    position: relative;
-    display: flex;
-    left: 89px;
-    bottom: 42px;
-    margin: 0;
+    /*position: relative;*/
+    /*display: flex;*/
+    /*left: 89px;*/
+    /*bottom: 42px;*/
+    /*margin: 0;*/
 }
+
+.lang-main-descr {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+.main-descr {
+    position: relative;
+    left: 40px;
+}
+
+
 
 
 

@@ -116,19 +116,19 @@ main, html, body {
 
 .first-lang {
     display: inline-block;
-    margin-left: 7px;
+    margin-left: 20px;
 }
 .second-lang {
     display: inline-block;
     position: absolute;
-    right: 30px;
+    right: 50px;
 }
 
 .what-known {
     border: none;
     border-radius: 15px;
     background-image: repeating-linear-gradient(90deg, darkslategrey, lightslategrey);
-    width: 95%;
+    width: 88%;
     height: 100%;
     margin: 0 auto;
     color:ghostwhite;
@@ -140,10 +140,14 @@ main, html, body {
     border: none;
     border-radius: 15px;
     position: relative;
-    width: 95%;
+    width: 88%;
     height: 100%;
     margin: 0 auto;
     color:ghostwhite;
+}
+
+.what-known-description {
+    height: 91px;
 }
 
 .what-known-description img {
@@ -169,7 +173,9 @@ main, html, body {
 .what-known-description-text-inside {
     font-size: 8px;
     text-shadow: 1px 1px 1px grey;
+    height: 100%;
 }
+
 
 
 

@@ -98,66 +98,18 @@ main, html, body {
     height: 1px;
     background-color: darkslategrey;
     position: relative;
-    margin: 2% auto;
     border-radius: 50%;
-}
+    margin: 30px auto;
 
-.left-column {
-    /*border: 1px solid red;*/
 }
-
-.right-column {
-    /*border: 1px solid blue;*/
-}
-
-.langs-known {
-    font-size: 18px;
-    font-weight: bold;
+.col-sm-6 p {
+    margin-top: 0;
+    text-transform: uppercase;
     text-align: center;
-    text-shadow: 1px 1px grey;
-}
-
-.langs-img {
-    /*padding-left: 36px;*/
-    /*padding-bottom: 63px;*/
-    position: relative;
-}
-
-.lang-descr {
-    font-size: 14px;
-    text-shadow: 1px 1px 1px grey;
-    text-align:left;
+    text-shadow: 1px 1px 1px darkslategray;
+    font-size: 16px;
     font-weight: bold;
-    left: 0;
-    position: absolute;
-    display: inline-block;
 }
-
-.span-descr {
-    font-size: 10px;
-    font-weight: bold;
-    color: darkslategrey;
-    text-shadow: darkgrey;
-    text-align: left;
-    /*position: relative;*/
-    /*display: flex;*/
-    /*left: 89px;*/
-    /*bottom: 42px;*/
-    /*margin: 0;*/
-}
-
-.lang-main-descr {
-    text-align: left;
-    position: relative;
-    display: inline-block;
-}
-
-.main-descr {
-    position: relative;
-    left: 40px;
-}
-
-
 
 
 

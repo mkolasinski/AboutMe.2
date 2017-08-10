@@ -101,8 +101,8 @@ main, html, body {
     position: relative;
     border-radius: 50%;
     margin: 30px auto;
-
 }
+
 .main-p {
     margin-top: 0;
     text-transform: uppercase;
@@ -112,6 +112,16 @@ main, html, body {
     padding: 2px;
     font-size: 16px;
     font-weight: bold;
+}
+
+.first-lang {
+    display: inline-block;
+    margin-left: 7px;
+}
+.second-lang {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
 }
 
 .what-known {

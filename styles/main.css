@@ -107,18 +107,58 @@ main, html, body {
     text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 1px darkslategray;
+    text-decoration: underline;
+    padding: 2px;
     font-size: 16px;
     font-weight: bold;
 }
 
 .what-known {
-    border: 2px solid darkslategray;
+    border: none;
     border-radius: 15px;
     background-color: darkslategray;
-    width: 80%;
+    width: 92%;
     height: 100%;
     margin: 0 auto;
+    color:ghostwhite;
+    position: relative;
 }
+
+.what-known:hover {
+    background-color: lightslategrey;
+    border: none;
+    position: relative;
+}
+
+.what-known-description img {
+    margin: 25px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.what-known-description-text text {
+    display: block;
+    position: relative;
+    left: 100px;
+    bottom: 85px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.what-known-description-text small {
+    display: block;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+
 
 
 

@@ -111,6 +111,15 @@ main, html, body {
     font-weight: bold;
 }
 
+.what-known {
+    border: 2px solid darkslategray;
+    border-radius: 15px;
+    background-color: darkslategray;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 
 
 

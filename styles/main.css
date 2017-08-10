@@ -118,7 +118,7 @@ main, html, body {
     border: none;
     border-radius: 15px;
     background-color: darkslategray;
-    width: 92%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     color:ghostwhite;
@@ -160,6 +160,8 @@ main, html, body {
     font-size: 8px;
     text-shadow: 1px 1px 1px grey;
 }
+
+
 
 
 

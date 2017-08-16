@@ -511,6 +511,31 @@ label {
     margin-bottom: 20px;
 }
 
+.button-submit, .button-reset {
+    border: none;
+    width: 75px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.button-submit {
+    background-color: #f7f7f7;
+}
+
+.button-submit:hover {
+    background-color: navajowhite;
+}
+
+.button-reset {
+    background-color: lightsalmon;
+}
+
+.button-reset:hover {
+    background-color: salmon;
+}
+
+
+
 footer {
     text-align: center;
     display: inline-block;

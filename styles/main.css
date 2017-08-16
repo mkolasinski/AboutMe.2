@@ -409,6 +409,46 @@ main, html, body {
     right: 4.5%;
 }
 
+.learning-foreign-languages {
+    display: inline-block;
+}
+
+.languages-icon {
+    max-width: 30px;
+    top: 80px;
+    left: 15px;
+    position: absolute;
+}
+
+.learning-foreign-languages p {
+    font-size: 12px;
+    font-weight: bolder;
+    text-shadow: 1px 1px grey;
+    left: 60px;
+    top: 85px;
+    position: absolute;
+}
+
+.dance {
+    display: inline-block;
+}
+
+.dance-icon {
+    max-width: 24px;
+    position: absolute;
+    top: 80px;
+    right: 79px;
+}
+
+.dance p {
+    font-size: 12px;
+    font-weight: bolder;
+    text-shadow: 1px 1px grey;
+    right: 7%;
+    top: 85px;
+    position: absolute;
+}
+
 
 
 

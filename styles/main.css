@@ -163,7 +163,7 @@ main, html, body {
 .what-known {
     border: none;
     border-radius: 15px;
-    background-image: repeating-linear-gradient(90deg, darkslategrey, lightslategrey);
+    background-image: repeating-linear-gradient(90deg, #677891, lightslategrey);
     width: 90%;
     height: 200px;
     margin: 0 auto;
@@ -172,7 +172,7 @@ main, html, body {
 }
 
 .what-known:hover {
-    background-image: repeating-linear-gradient(90deg, lightslategrey, darkslategrey);
+    background-image: repeating-linear-gradient(90deg, lightslategrey, #677891);
     border: none;
     border-radius: 15px;
     position: relative;
@@ -212,6 +212,28 @@ main, html, body {
     font-size: 8px;
     text-shadow: 1px 1px 1px grey;
     height: 100%;
+}
+
+.what-known-languages {
+    border: none;
+    border-radius: 15px;
+    background-image: repeating-linear-gradient(90deg, #677891, lightslategrey);
+    width: 90%;
+    height: 88px;
+    margin: 0 auto;
+    color: ghostwhite;
+    position: relative;
+}
+
+.what-known-languages:hover {
+    background-image: repeating-linear-gradient(90deg, lightslategrey, #677891);
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    width: 90%;
+    height: 88px;
+    margin: 0 auto;
+    color: ghostwhite;
 }
 
 

@@ -165,7 +165,7 @@ main, html, body {
     border-radius: 15px;
     background-image: repeating-linear-gradient(90deg, #677891, lightslategrey);
     width: 90%;
-    height: 200px;
+    height: 213px;
     margin: 0 auto;
     color: ghostwhite;
     position: relative;
@@ -177,7 +177,7 @@ main, html, body {
     border-radius: 15px;
     position: relative;
     width: 90%;
-    height: 200px;
+    height: 213px;
     margin: 0 auto;
     color: ghostwhite;
 }
@@ -234,6 +234,40 @@ main, html, body {
     height: 88px;
     margin: 0 auto;
     color: ghostwhite;
+}
+
+.foreign-languages {
+    border: none;
+    border-radius: 15px;
+    background-image: repeating-linear-gradient(90deg, #677891, lightslategrey);
+    width: 90%;
+    height: 88px;
+    margin-top: 0px;
+    margin-bottom:0;
+    margin-right: auto;
+    margin-left: auto;
+    color: ghostwhite;
+    position: relative;
+
+}
+
+.foreign-languages:hover {
+    background-image: repeating-linear-gradient(90deg, lightslategrey, #677891);
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    width: 90%;
+    height: 88px;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-right: auto;
+    margin-left: auto;
+    color: ghostwhite;
+}
+
+.flag {
+    max-width: 70px;
+    max-height: 70px;
 }
 
 

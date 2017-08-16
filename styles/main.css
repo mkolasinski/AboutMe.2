@@ -1,6 +1,7 @@
 main, html, body {
     background-color: lightgray;
     font-family: 'Exo 2', sans-serif;
+
 }
 .row {
     margin-bottom: 1.1em;
@@ -104,8 +105,10 @@ main, html, body {
     margin-top: 65px;
     margin-left: 15%;
     margin-right: 15%;
-    height: 1000px;
+    margin-bottom: 15%;
+    height: 100%;
     border-radius: 30px;
+    position: relative;
 }
 
 .circular img {
@@ -258,10 +261,7 @@ main, html, body {
     position: relative;
     width: 90%;
     height: 88px;
-    margin-top: 0;
-    margin-bottom:0;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     color: ghostwhite;
 }
 
@@ -323,6 +323,55 @@ main, html, body {
     margin-left: auto;
     color: ghostwhite;
 }
+
+.hobby {
+    position: relative;
+    left: 8%;
+    width: 90%;
+
+}
+.programming-icon {
+    max-width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.programming {
+    display: inline-block;
+}
+
+.programming p {
+    font-size: 12px;
+    font-weight: bolder;
+    text-shadow: 1px 1px grey;
+    padding-left: 60px;
+    top: 20px;
+    position: absolute;
+}
+
+.sport {
+    display: inline-block;
+    right: 8%;
+}
+
+.sport-icon {
+    max-width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+.sport p {
+    font-size: 12px;
+    font-weight: bolder;
+    text-shadow: 1px 1px grey;
+    position: absolute;
+    top: 20px;
+    right: 8%;
+    /*float: left;*/
+}
+
+
 
 
 

@@ -453,8 +453,11 @@ main, html, body {
     border: 1px solid #0b1361;
     border-radius: 15px;
     background-image: repeating-linear-gradient(90deg, #677891, lightslategrey);
-    width: 75%;
-    margin: 0 auto;
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
     /*color: ghostwhite;*/
     position: relative;
 }
@@ -478,10 +481,35 @@ main, html, body {
     position: relative;
 }
 
+input.form-control {
+    width: 90%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
 
+input.form-control:active {
+    border: 1px solid #0b1361;
+}
 
+textarea.form-control {
+    max-width: 90%;
+    min-height: 100px;
+    max-height: 100px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
 
+label {
+    padding-left: 5%;
+}
 
-
+.buttons {
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
 
 
